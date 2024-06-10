@@ -20,7 +20,7 @@
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/RSSICheck.git
+    git clone https://github.com/boshyxd/RSSICheck.git
     cd RSSICheck
     ```
 
@@ -34,3 +34,22 @@
 Run the script to start scanning for Bluetooth devices:
 ```sh
 python RSSICheck.py
+```
+
+The script will scan for 10 seconds and output the RSSI and signal quality of each detected device.
+
+### Example Output
+
+```bash
+Scanning for Bluetooth devices...
+Device: Unknown, Address: 00:1A:7D:DA:71:13, RSSI: -55 dBm, Signal Quality: Good
+Device: Bluetooth Speaker, Address: 24:62:AB:F2:4D:7E, RSSI: -67 dBm, Signal Quality: Fair
+
+Summary of detected devices:
+Address: 00:1A:7D:DA:71:13, RSSI: -55 dBm, Signal Quality: Good
+Address: 24:62:AB:F2:4D:7E, RSSI: -67 dBm, Signal Quality: Fair
+```
+
+### License
+
+This project is licensed under the MIT License.
